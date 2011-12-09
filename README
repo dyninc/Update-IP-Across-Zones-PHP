@@ -1,0 +1,5 @@
+This is a utility script which will look through every zone in your DynECT DNS account looking for any A or AAAA records with a certain ip address and update that ip address to a new one. It is written in PHP and utilizes CURL for the REST communication. This is merely a sample script, a real production script would want to do more rigorous error checking and move credentials into a config file. For simplicity of reading try/catch and advanced error handling was not included
+	
+The script useage is as follows:
+   php UpdatIPInZones.php [old_ip] [new_ip]
+
